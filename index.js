@@ -1,8 +1,13 @@
-console.log('What is the capital of Peru?')
+// const modal = document.getElementById('modal')
 
-console.log('Lima!')
+// setTimeout(function () {
+//     modal.style.display = 'inline'
+// }, 15000)
+
+// console.log("hi salman")
+
+const modal = document.getElementById('modal')
 
 setTimeout(function () {
-    console.log('Ready for next question?')
-}, 2000)
-
+    modal.style.display = 'inline'
+}, 1500)
